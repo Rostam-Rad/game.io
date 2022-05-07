@@ -1,0 +1,107 @@
+body{
+    font-family: 'Rootov', Helvetica, sans-serif;
+    text-align: center;
+    background-color: teal;
+}
+
+hr{
+    width: 400px;
+}
+
+h1{
+    color: maroon;
+}
+
+#game-board{
+    width: 400px;
+    height: 400px;
+    background-color: maroon;
+    border-radius: 10px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile{
+    width: 78px;
+    height: 78px;
+    border: 1px solid teal;
+
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#letters{
+    width: 420px;
+    height: 190px;
+    padding: 4px 4px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.letter{
+    width: 70px;
+    height: 70px;
+
+    border: 1px solid maroon;
+    background-color: beige;
+    margin: 4px auto;
+    border-radius: 10px;
+    
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.letter-selected{
+    background-color: gray;
+}
+
+.used-letter{
+    opacity: 30%;
+}
+
+.winning-state{
+    background-color: green;
+}
+
+
+.button{
+    background-color: beige;
+    border: 1px solid maroon;
+    margin: 4px auto;
+    border-radius: 6px;
+    
+}
+.button1{
+    top:25%;
+    left:61.5%;
+    font-size: bold;
+    
+    position: absolute;
+
+}
+.button2{
+    top:28%;
+    left: 61.5%;
+    position: absolute;
+
+}
+.button3{
+    top:26.5%;
+    left:60.5%;
+    
+    position: absolute;
+
+}
+.button4{
+    top:26.5%;
+    left: 62.5%;
+    position: absolute;
+
+}
