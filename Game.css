@@ -77,31 +77,58 @@ h1{
     margin: 4px auto;
     border-radius: 6px;
     
+
+   
+
 }
 .button1{
-    top:25%;
-    left:61.5%;
+    top:26%;
+    left:62.5%;
     font-size: bold;
     
     position: absolute;
 
 }
 .button2{
-    top:28%;
-    left: 61.5%;
+    top:29%;
+    left: 62.5%;
     position: absolute;
 
 }
 .button3{
-    top:26.5%;
-    left:60.5%;
+    top:27.5%;
+    left:61.1%;
     
     position: absolute;
 
 }
 .button4{
-    top:26.5%;
-    left: 62.5%;
+    top:27.5%;
+    left: 63.8%;
     position: absolute;
 
 }
+
+.stopWatch{
+    top:24%;
+    left: 33.8%;
+    position: absolute;
+    display: grid;
+    grid-row-gap: 23px;
+    padding-top: 25px;
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    height: 40px;
+    width: 70px;
+  
+    border: 2px solid;
+    border-radius: 30px;
+}
+.time {
+    font-family: "Roboto Mono", monospace;
+    font-size: 12px;
+  }
